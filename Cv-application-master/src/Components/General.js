@@ -48,7 +48,7 @@ function General(props) {
       </div>
       <div className="image">
         <div className="profile-pic">
-          <img src='/Cv-application/images/profile%20pic.jpg' alt="profile pic"/>
+          <img src='/Cv-application/images/6536da15-58c3-44a6-acc1-47270e24e028.jpg' alt="profile pic"/>
         </div>
       </div>
       <div id="links">
