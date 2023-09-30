@@ -1,0 +1,205 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background: slategray;
+}
+
+
+header {
+    height: 10vh;
+    background: #1DBFAF;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #1DBFAF;
+}
+
+header h1 {
+    padding-top: 20px;
+    color: white;
+    font-family: "Lucida Handwriting", sans-serif;
+}
+
+#root {
+    height: 80vh;
+}
+
+.App {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.App > div {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App * *:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.description {
+}
+
+/* style each component*/
+.none {
+    display: none;
+}
+
+.general {
+    position: relative;
+    color: #313C4E;
+}
+
+.general .image {
+    flex: 1;
+}
+
+#designation {
+    color: #1DBFAF;
+}
+
+#links svg{
+    margin-right: 5px;
+}
+
+#links p {
+    margin: 0;
+}
+
+.general div {
+    flex: 2;
+}
+
+.general input {
+    width: 80%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 3px solid #1DBFAF;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#links div{
+    padding: 10px;
+    display: flex;
+    flex: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#links p {
+    font-size: 14px;
+}
+
+.overview{
+    justify-content: space-between;
+}
+
+.projects {
+}
+
+.skills {
+}
+
+.skill {
+    background: #989DA6;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.skill p {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.skill button {
+    margin:0 0 0 5px;
+    text-align: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    transform: rotate(-45deg);
+}
+
+.projectsForm div {
+    margin: 10px 0;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    font-size: large;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+hr {
+    border: 1px solid #1DBFAF;
+}
+
+button {
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+button:focus{
+    outline: none;
+}
+.duration {
+    justify-content: space-between;
+}
+
+.duration div {
+    width: 45%;
+}
+
+.timePlace {
+    color: #138076;
+}
